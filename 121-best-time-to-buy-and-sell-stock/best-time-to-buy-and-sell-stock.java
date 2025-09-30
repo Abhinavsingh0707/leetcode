@@ -11,6 +11,7 @@ class Solution {
         //            p
         // min_Price = 7,6,4,3,1
         // max_Profit = 0,0,0,0,0--> 0
+        //TC--> O(n) , SC --> O(n)
       for(int price : prices){
         if(price < min_Price){
             min_Price = price;
