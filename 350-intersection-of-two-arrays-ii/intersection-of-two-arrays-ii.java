@@ -3,6 +3,10 @@ class Solution {
         Arrays.sort(nums1);
         Arrays.sort(nums2);
 
+
+        // T: O(m.logm + nlogn)
+        // S: O(min(n,n) + logm + logn)
+
         int [] res = new int[nums1.length];
         int k = 0;
 
