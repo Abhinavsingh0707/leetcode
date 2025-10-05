@@ -8,6 +8,12 @@ class Solution {
 
         int i = 0,
             j = 0;
+        // nums1 = [1,1,2,2]
+        //                  i
+        // nums2 = [2,2]
+        //              j
+        // res = [2,2]
+        //            k
 
         while(i<nums1.length && j<nums2.length){
             if(nums1[i] == nums2[j]){
@@ -22,6 +28,6 @@ class Solution {
             }
         }
        
-        return Arrays.copyOfRange(res, 0, k);
+        return Arrays.copyOfRange(res, 0, k); // [2,2]
     }
 }
